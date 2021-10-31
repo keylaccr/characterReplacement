@@ -1,0 +1,51 @@
+Please enter the path of file to be corrected: 
+C:\Users\Keyla\Documents\fileToCorrect.txt
+Old content: 
+/**
+ * 
+ * Given a List of Strings replace '&' with "and".
+ * 
+ * For example:
+ * 
+ * Tromeo & Juliet
+ * Platoon
+ * Kate & Leopold
+ * Poltergeist III
+ * Harold and Kumar Go to White Castle
+ * Clerks II
+ *
+ * becomes:
+ *
+ * Tromeo and Juliet
+ * Platoon
+ * Kate and Leopold
+ * Poltergeist III
+ * Harold and Kumar Go to White Castle
+ * Clerks II
+ *
+ */
+
+Corrected content: 
+/**
+ * 
+ * Given a List of Strings replace 'and' with "and".
+ * 
+ * For example:
+ * 
+ * Tromeo and Juliet
+ * Platoon
+ * Kate and Leopold
+ * Poltergeist III
+ * Harold and Kumar Go to White Castle
+ * Clerks II
+ *
+ * becomes:
+ *
+ * Tromeo and Juliet
+ * Platoon
+ * Kate and Leopold
+ * Poltergeist III
+ * Harold and Kumar Go to White Castle
+ * Clerks II
+ *
+ */
