@@ -37,7 +37,7 @@ public class Main {
 				}
 
 				String correctedFile = buffer.toString();
-				System.out.println("Old content: "+correctedFile);
+				System.out.println("Old content: "+System.lineSeparator()+correctedFile);
 
 				scanner.close();
 
@@ -47,7 +47,7 @@ public class Main {
 				//Replacing and outputting contents of old file
 				FileWriter writer = new FileWriter(fileToCorrect);
 
-				System.out.println("Corrected content: "+correctedFile);
+				System.out.println("Corrected content: "+System.lineSeparator()+correctedFile);
 
 				writer.append(correctedFile);
 				writer.flush();
